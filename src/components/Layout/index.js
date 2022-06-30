@@ -5,7 +5,8 @@ import "animate.css"
 const Layout = () => {
     return <>
     <Sidebar />
-    <h2 className="work animate__animated animate__bounce">WORK UNDER PROGRESS</h2>
+    <span className="work animate__animated animate__bounce">WORK UNDER PROGRESS</span>
+    <span>-mohdWajid</span>
     </>
 
 }
