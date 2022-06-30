@@ -6,7 +6,7 @@ const Layout = () => {
     return <>
     <Sidebar />
     <span className="work animate__animated animate__bounce">WORK UNDER PROGRESS</span>
-    <span>-mohdWajid</span>
+    <span className="owner-name">-MohdWajid</span>
     </>
 
 }
