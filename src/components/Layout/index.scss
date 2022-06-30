@@ -1,0 +1,11 @@
+.work{
+    position:absolute;
+    top:40%;
+    left:30%;
+    font-size: 50px;
+    color:white;
+    font-family: sans-serif;
+    &.animate__animated{
+        animation-iteration-count: infinite;
+    }
+}
