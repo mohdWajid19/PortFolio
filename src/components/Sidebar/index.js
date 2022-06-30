@@ -16,11 +16,11 @@ const Sidebar = () => {
         <div className="nav-bar">
           <Link className="logo" to="/">
             {/* <img src={LogoW} alt="Logo" /> */}
-            <FontAwesomeIcon className="logo logoW logo-below animate__rubberBand" icon={faWonSign} />
-            <FontAwesomeIcon className="logo logoW logo-above animate__rubberBand" icon={faWonSign} />
+            <FontAwesomeIcon className="logo logoW logo-below animate__animated animate__pulse" icon={faWonSign} />
+            <FontAwesomeIcon className="logo logoW logo-above animate__animated animate__pulse" icon={faWonSign} />
             {/* <img className="sub-logo" src={LogoSubtitle} alt="Wajid" /> */}
-            <span className="logo-subtitle left-side animate__backInRight">Mohd</span>
-            <span className="logo-subtitle right-side animate__backInLeft">Wajid</span>
+            <span className="logo-subtitle left-side animate__animated animate__backInRight">Mohd</span>
+            <span className="logo-subtitle right-side animate__animated animate__backInLeft">Wajid</span>
           </Link>
           <nav>
             <NavLink exact="true" activeclassname="active" dataAttr="HOME" to="/">

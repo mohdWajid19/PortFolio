@@ -26,9 +26,10 @@ $--color-dim:#4d4d4e;
         height:auto;
         margin:auto;
         font-weight: 900;
-        &.animate__rubberBand {
-                animation-duration: infinite;
-            }
+        &.animate__animated {
+          animation-duration: 800ms;
+          animation-iteration-count: infinite;
+        }
       }
       &.logo-above{
         color:$--color-bright;
