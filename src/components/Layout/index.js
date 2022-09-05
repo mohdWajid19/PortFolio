@@ -14,7 +14,6 @@ const Layout = () => {
     <span className="owner-name">-MohdWajid</span> */}
     <NameBox name="MOHD WAJID" />
     </>
-
 }
 
 export default Layout;
