@@ -2,7 +2,7 @@ import './index.scss';
 import Sidebar from '../Sidebar';
 import NameBox from '../NameBox';
 import HomeNameText from '../HomeNameText';
-import DevName from '../DevName';
+// import DevName from '../DevName';
 import "animate.css"
 
 const Layout = () => {
