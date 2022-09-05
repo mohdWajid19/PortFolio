@@ -1,0 +1,42 @@
+$--fs : 1.5rem;
+$--fw : 700;
+.namebox{
+    position: absolute;
+    width:250px;
+    height:60px;
+    background:#82b71b;
+    border: solid 10px #fff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:10%;
+    right:6%;
+    font-family:'Cascadia code';
+        /*overflow-x:scroll; /*comment  scroll part if using marquee tag*/
+    .box{
+        width:100%;
+        font-size: $--fs;
+        font-weight: $--fw;
+    
+        /*white-space: nowrap; comment this if using marquee tag*/
+        /* animation: movetoleft 3s cubic-bezier(0.7, 0.33, 0.68, 0.32) infinite; use any pf the two animations*/
+        /* animation: movetoleft 3s linear infinite; comment this and keyframe part also if using marquee tag */
+    
+    }
+}
+
+/* .namebox::-webkit-scrollbar {
+    display: none;
+  } */
+
+
+
+/* @keyframes movetoleft {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-110%);
+    }
+} */

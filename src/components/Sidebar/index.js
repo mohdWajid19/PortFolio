@@ -1,6 +1,6 @@
 import './index.scss'
-// import LogoW from '../../assets/images/logo-s.png'
-// import LogoSubtitle from '../../assets/images/logo_sub.png'
+// import LogoW from '../../assets/images/logo-w.png'
+// import LogoSubtitle from '../../assets/images/logo_subtitle.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
