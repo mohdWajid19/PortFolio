@@ -7,8 +7,14 @@ html {
 body {
   margin: 0;
   font-family: 300 11px/1.4 'Helvetica Neue','sans-serif';
-  color:#444;
-  background:#022c43;
+  color: #444;
+  /* background:#022c43; */
+  background: #05090c;
+  /* background:
+        radial-gradient(rgb(0, 0, 0), transparent),
+        linear-gradient(to top left, black, transparent),
+        linear-gradient(to top right, rgb(57, 55, 55), transparent);
+    background-blend-mode: screen; */
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
