@@ -1,0 +1,57 @@
+Purple-pallete {
+	.first-color { 
+	background: #dbd8e3; 
+	}
+		
+	.second-color { 
+		background: #5c5470; 
+	}
+
+	.third-color { 
+		background: #352f44; 
+	}
+
+	.fourth-color { 
+		background: #2a2438; 
+	}
+	
+	$--bg-color:#2a2438;
+	$--color:#5c5470;
+	$--color-bright:#dbd8e3;
+	$--color-dim:#352f44;
+}
+
+Green-Pallete {
+	$--bg-color:#181818;
+	$--color:#82b71b;
+	$--color-bright:#fff;
+	$--color-dim:#4d4d4e;
+}
+
+Bright-purple-pallete {
+	.first-color { 
+	background: #363b4e; 
+	}
+		
+	.second-color { 
+		background: #4f3b78; 
+	}
+
+	.third-color { 
+		background: #927fbf; 
+	}
+
+	.fourth-color { 
+		background: #c4bbf0; 
+	}
+}
+
+Better-Puprle { // current-pallete
+	$--bg-color:#000;
+	$--color:#796c9e;
+	$--color-bright:#dbd8e3;
+	$--color-dim:#4a425e;
+
+	// index.css (App)
+	 background: #2a2438;
+}

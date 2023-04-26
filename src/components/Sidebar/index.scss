@@ -1,7 +1,9 @@
-$--bg-color:#181818;
-$--color:#82b71b;
-$--color-bright:#fff;
-$--color-dim:#4d4d4e;
+// $--bg-color:#221e2e;
+$--bg-color:#000;
+// $--color-dim:#4f3b78;
+$--color-dim:#564b6d;
+$--color-bright:#dbd8e3;
+$--color:#927fbf;
 
 
 .nav-bar {
@@ -13,11 +15,11 @@ $--color-dim:#4d4d4e;
     right:0;
     z-index: 3;
     min-height: 500px;
-    box-shadow:  0px 2px 4px #82bb1b4d, 
-               0px 4px 8px #82bb1b4d, 
-               0px 8px 16px #82bb1b4d;
+    box-shadow:  0px 2px 4px #a928ff4d, 
+               0px 4px 8px #a928ff4d, 
+               0px 8px 16px #a928ff4d;
     .logo {
-      color:$--color;
+      color:$--color-bright;
       display: block;
       padding: 8px 0;
       position:relative;
@@ -34,34 +36,11 @@ $--color-dim:#4d4d4e;
         }
       }
       &.logo-above{
-        color:$--color-bright;
+        color:$--color;
         position:absolute;
         top:6px;
         left:13px;
       }
-      .logo-subtitle{
-        color:$--color-bright;
-        text-transform: uppercase;
-        width:100%;
-        height:28px;
-        display:block;
-        font-size: 1.1rem;
-        -webkit-transition: all 0.3s ease-out;
-        transition: all 0.3s ease-out;
-        &.animate__backInRight:hover{
-          animation-duration: infinite;
-        }
-        &.animate__backInLeft:hover{
-          animation-duration: infinite;
-        }
-        &.left-side{
-          text-align: left;
-          padding-left:15%;
-        }
-        &.right-side{
-          padding-left: 25%;
-        }
-     }
     }
   
     nav {
@@ -88,7 +67,6 @@ $--color-dim:#4d4d4e;
   
         &:hover {
           color: $--color;
-  
           svg {
             opacity: 0;
           }
@@ -154,7 +132,6 @@ $--color-dim:#4d4d4e;
             display: block;
             width: 120%;
             text-align: center;
-            
           }
           div{
             position:absolute;
@@ -167,6 +144,7 @@ $--color-dim:#4d4d4e;
             background: $--color-bright;
           }
           &:hover{
+            color: $--color;
             &:after{
               color:$--color-dim;
               opacity:1;
@@ -176,7 +154,6 @@ $--color-dim:#4d4d4e;
               opacity: 1;
              }
           }
-                    
         }
       }
     }
